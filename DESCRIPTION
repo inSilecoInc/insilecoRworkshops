@@ -1,0 +1,36 @@
+Package: insilecoRworkshops
+Title: Download, update and render inSileco R workshops
+Version: 0.6.0
+Date: 2021-01-15
+Authors@R:
+  c(
+    person("Kevin", "Cazelles", email = "kcazelle@uoguelph.ca", comment = c(ORCID = "0000-0001-6619-9874"), role = c("aut", "cre")),
+    person("Marie-Hélène", "Brice", comment = c(ORCID = "0000-0003-0390-4833"), role = c("aut")),
+    person("inSileco", role = c("aut"), email = "kevin.cazelles@gmail.com")
+  )
+Description: Set of helper functions to make contributions to inSileco R workshops easy. Download, update and render inSileco R workshops in HTML and PDF and extract R script.
+License: GPL-3
+Encoding: UTF-8
+URL: https://github.com/QCBSRworkshops/qcbsRworkshops, https://github.com/QCBSRworkshops/QCBSRworkshops.github.io
+BugReports: https://github.com/QCBSRworkshops/qcbsRworkshops/issues
+LazyData: true
+Suggests:
+    testthat
+Imports:
+    blastula,
+    cli,
+    clipr,
+    crayon,
+    devtools,
+    fs,
+    glue,
+    knitr,
+    pagedown,
+    remotes,
+    rmarkdown,
+    tools,
+    utils,
+    yaml,
+    xaringan
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
