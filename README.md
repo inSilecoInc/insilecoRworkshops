@@ -1,10 +1,17 @@
 # insilecoRworkshops
 
 [![R build status](https://github.com/QCBSRworkshops/qcbsRworkshops/workflows/R-CMD-check/badge.svg)](https://github.com/QCBSRworkshops/qcbsRworkshops/actions)
-[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- badges: start -->
+[![Lifecycle: superseded](https://img.shields.io/badge/lifecycle-superseded-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#superseded)
+<!-- badges: end -->
 
 
-`insilecoRworkshops` R :package: is meant to ease the development and editions  of the inSileco R workshops (mainly templates). This project is a adaptation of  [`qcbsRworkshops`](https://github.com/QCBSRworkshops/qcbsRworkshops) for workshops developed by inSileco.
+SEE https://github.com/inSilecoInc/iseWorkshops
+
+
+
+
+`insilecoRworkshops` R :package: is meant to ease the development and edition of the inSileco R workshops (mainly templates). This project is an adaptation of [`qcbsRworkshops`](https://github.com/QCBSRworkshops/qcbsRworkshops) for workshops developed by inSileco.
 
 
 ## Installation

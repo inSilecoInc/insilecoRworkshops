@@ -33,7 +33,7 @@ first_slides <- function(workshop_id, pkgs, lang = c("en", "fr"), clip = FALSE)
   out <- glue("{tx1}\n{bdg}\n\n---\n\n{tx2}\n\n{lsp}")
   if (clip) {
     write_clip(out)
-    msgInfo("first slides copied to the clipboard!")
+    cli::cli_alert_info("first slides copied to the clipboard!")
   }
   invisible(out)
 }

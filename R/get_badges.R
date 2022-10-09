@@ -49,7 +49,7 @@ get_badges <- function(workshop_id, lang = c("en", "fr"),
     cat(paste(tra, gh, wiki, html, pdf, scr, sep="\n"), "\n")
   if (clip) {
     write_clip(paste(tra, gh, wiki, html, pdf, scr, sep="\n"))
-    msgInfo("badges copied in your clipboard!")
+    cli::cli_alert_info("badges copied in your clipboard!")
   }
   invisible(c(tra, gh, wiki, html, pdf, scr))
 }

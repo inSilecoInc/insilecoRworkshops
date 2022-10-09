@@ -3,3 +3,4 @@
 ^revdep$
 ^LICENSE\.md$
 ^\.github$
+^\.vscode
